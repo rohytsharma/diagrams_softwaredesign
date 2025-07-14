@@ -1,9 +1,66 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="27.2.0">
   <diagram name="Page-1" id="u-lweWNr8xxrpsfaXZqN">
-    <mxGraphModel>
+    <mxGraphModel dx="4502" dy="1342" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1400" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="62ZIKeKZuMhemRyzgVXe-1" value="student" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="140" width="160" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="62ZIKeKZuMhemRyzgVXe-2" value="- student_name&lt;div&gt;- student_id&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="62ZIKeKZuMhemRyzgVXe-1">
+          <mxGeometry y="26" width="160" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="62ZIKeKZuMhemRyzgVXe-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="62ZIKeKZuMhemRyzgVXe-1">
+          <mxGeometry y="70" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="62ZIKeKZuMhemRyzgVXe-4" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="62ZIKeKZuMhemRyzgVXe-1">
+          <mxGeometry y="78" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="62ZIKeKZuMhemRyzgVXe-5" value="office" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="132" width="160" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="62ZIKeKZuMhemRyzgVXe-6" value="- office_id&lt;div&gt;office_name&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="62ZIKeKZuMhemRyzgVXe-5">
+          <mxGeometry y="26" width="160" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="62ZIKeKZuMhemRyzgVXe-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="62ZIKeKZuMhemRyzgVXe-5">
+          <mxGeometry y="70" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="62ZIKeKZuMhemRyzgVXe-8" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="62ZIKeKZuMhemRyzgVXe-5">
+          <mxGeometry y="78" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="62ZIKeKZuMhemRyzgVXe-9" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="62ZIKeKZuMhemRyzgVXe-2" target="62ZIKeKZuMhemRyzgVXe-6">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="300" y="190" as="sourcePoint" />
+            <mxPoint x="460" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="62ZIKeKZuMhemRyzgVXe-10" value="" style="endArrow=none;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;dashPattern=10 10;rounded=0;" edge="1" parent="1" target="62ZIKeKZuMhemRyzgVXe-12">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="330" y="180" as="sourcePoint" />
+            <mxPoint x="370" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="62ZIKeKZuMhemRyzgVXe-11" value="" style="endArrow=none;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;dashPattern=10 10;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="390" y="120" as="sourcePoint" />
+            <mxPoint x="450" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="62ZIKeKZuMhemRyzgVXe-12" value="Multiplicipties" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="335" y="100" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="62ZIKeKZuMhemRyzgVXe-13" value="works in" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="345" y="190" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="62ZIKeKZuMhemRyzgVXe-14" value="&lt;span id=&quot;docs-internal-guid-2d102a46-7fff-9e4a-0afe-306310868e2f&quot;&gt;&lt;p class=&quot;p1&quot;&gt;An effective method involves creating interfaces for every hierarchical level and linking each level through references to its corresponding sublevel. For communication to work smoothly, specific prerequisites must be satisfied. In this approach, communication is unidirectional and occurs through the &lt;span class=&quot;s1&quot;&gt;Department&lt;/span&gt; attribute defined within the &lt;span class=&quot;s1&quot;&gt;Employee&lt;/span&gt; class.&lt;/p&gt;&lt;p class=&quot;p2&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 1.38; text-align: justify; background-color: rgb(255, 255, 255); margin-top: 12pt; margin-bottom: 0pt; padding: 0pt 0pt 12pt;&quot; dir=&quot;ltr&quot;&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot;&gt;This structure enables direct, individual communication pathways between components while ensuring each layer remains independent of the internal workings of the others. This promotes loose coupling and modularity throughout the system.&lt;/p&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-2080" y="230" width="1900" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="62ZIKeKZuMhemRyzgVXe-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="62ZIKeKZuMhemRyzgVXe-14" target="62ZIKeKZuMhemRyzgVXe-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="62ZIKeKZuMhemRyzgVXe-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="62ZIKeKZuMhemRyzgVXe-14" target="62ZIKeKZuMhemRyzgVXe-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
